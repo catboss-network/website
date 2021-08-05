@@ -17,17 +17,12 @@
     "social":[
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"https://twitter.com/Catboss_Network",
         "icon": "/images/social-media-twitter.svg"
       },
       {
-        "name":"telegram",
-        "url":"https://www.telegram.com",
-        "icon": "/images/social-media-telegram.svg"
-      },
-      {
         "name":"github",
-        "url":"https://github.com",
+        "url":"https://github.com/orgs/chaotic-nodes",
         "icon": "/images/social-media-github.svg"
       }
     ]
