@@ -267,13 +267,28 @@ ul#nav li.current a { color: #A92F6C; }
 }
 
 #networks .header-col { padding-top: 9px; }
-#networks-wrapper .columns { margin-bottom: 36px; }
+#networks-wrapper  { 
+   margin-bottom: 36px; 
+   display: inline-flex; 
+}
 
+.networks-list{
+   align-items: center;
+}
+
+.networks-image{ 
+   height: 170px;
+}
+
+.networks-item {
+   padding: 16px;
+}
 
 .networks-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
+   display: inline-block;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -282,7 +297,6 @@ ul#nav li.current a { color: #A92F6C; }
 	transition: all 0.3s ease-in-out;
 }
 .networks-item .item-wrap a {
-   display: block;
    cursor: pointer;
 }
 
