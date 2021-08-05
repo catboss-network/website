@@ -2,7 +2,7 @@
   "name": "cat-boss-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://chaotic-nodes.github.io/website/",
   "dependencies": {
     "jquery": "^3.6.0",
     "react": "^17.0.1",
