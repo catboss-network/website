@@ -11,11 +11,22 @@ class About extends Component {
       <section id="about">
         <Fade duration={1000}>
           <div className="row">
-            <h1>{"About"} <img
-              className="about-cat-pic"
-              src="/images/cat.png"
+            <h1>{"About"}</h1>
+            <div className="cat-pics">
+            <img
+              className="cat-pic"
+              src="/images/cat-blue.png"
               alt="Meow"
-            /></h1>
+            /><img
+              className="cat-pic"
+              src="/images/cat-pink.png"
+              alt="Meow"
+            /><img
+              className="cat-pic"
+              src="/images/cat-grey.png"
+              alt="Meow"
+            />
+            </div>
             <div className="twelve columns main-col">
               <p id="about-text">{about.bio_intro}</p>
               <p id="about-text">{about.bio_mission}</p>
@@ -28,19 +39,13 @@ class About extends Component {
               <p id="about-text">{about.bio_mandoka}</p>
               <p id="about-text">{about.bio_nayn}</p>
               <p id="about-text">{about.bio_ps}</p>
+              <div className="cat-pics">
               <img
-                className="cat-pic"
-                src="/images/cat-blue.png"
-                alt="Meow"
-              /><img
-                className="cat-pic"
-                src="/images/cat-pink.png"
-                alt="Meow"
-              /><img
-                className="cat-pic"
-                src="/images/cat-grey.png"
+                className="about-cat-pic"
+                src="/images/cat.png"
                 alt="Meow"
               />
+              </div>
             </div>
           </div>
         </Fade>

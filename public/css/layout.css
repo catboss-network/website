@@ -37,7 +37,7 @@ header {
 }
 
 .cat-astronaut {
-   background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(72, 0, 255, 0.3)), url("/images/background-laser-eyes.jpeg");
+   background:linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(72, 0, 255, 0.3)), url("/images/background-laser-eyes.jpeg");
    background-size:cover;
    background-position: center;   
 }
@@ -226,6 +226,10 @@ ul#nav li.current a { color: #A92F6C; }
    height: 60px;
 }
 
+#about .cat-pics {
+   text-align: center;
+}
+
 /* ------------------------------------------------------------------ */
 /* d. Networks Section
 /* ------------------------------------------------------------------ */
@@ -263,13 +267,28 @@ ul#nav li.current a { color: #A92F6C; }
 }
 
 #networks .header-col { padding-top: 9px; }
-#networks-wrapper .columns { margin-bottom: 36px; }
+#networks-wrapper  { 
+   margin-bottom: 36px; 
+   display: inline-flex; 
+}
 
+.networks-list{
+   align-items: center;
+}
+
+.networks-image{ 
+   height: 170px;
+}
+
+.networks-item {
+   padding: 16px;
+}
 
 .networks-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
+   display: inline-block;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -278,7 +297,6 @@ ul#nav li.current a { color: #A92F6C; }
 	transition: all 0.3s ease-in-out;
 }
 .networks-item .item-wrap a {
-   display: block;
    cursor: pointer;
 }
 
@@ -361,8 +379,7 @@ ul#nav li.current a { color: #A92F6C; }
 #networks .cat-pic {
    width: auto;
    height: 50px;
-   margin-left: 10px;
-   margin-bottom: -10px;
+   margin-left: 30px;
 }
 
 /* ------------------------------------------------------------------ */
