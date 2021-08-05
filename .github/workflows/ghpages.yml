@@ -20,7 +20,7 @@ jobs:
       run: |
         npm ci
         npm run build
-        echo 'docs.bigdipper.live' > ./build/CNAME
+        echo 'catboss.network' > ./build/CNAME
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
