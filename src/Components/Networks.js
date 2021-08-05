@@ -28,11 +28,7 @@ class Networks extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed" style={{ textAlign: "center" }}>
-              <h1>{this.props.data.title}<img
-                className="cat-pic"
-                src="/images/cat5.png"
-                alt="Meow"
-              /></h1>
+              <h1>{this.props.data.title}</h1>
               <h6>{this.props.data.description}</h6>
 
               <div
@@ -41,6 +37,11 @@ class Networks extends Component {
               >
                 {projects}
               </div>
+              <img
+                className="cat-pic"
+                src="/images/cat5.png"
+                alt="Meow"
+              />
             </div>
           </div>
         </Fade>
