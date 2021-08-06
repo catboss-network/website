@@ -46,11 +46,11 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1500}>
-              <h3>{description.description_trust_me}</h3>              
+              <p className="banner-text-description">{description.description_trust_me}</p>
             </Fade>
-            <Fade bottom duration={3000}>
+            {/* <Fade bottom duration={3000}>
               <h6>{description.description}.</h6>
-            </Fade>
+            </Fade> */}
             <hr />
           </div>
         </div>
