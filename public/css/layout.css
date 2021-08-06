@@ -18,8 +18,8 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { 
-   background: #0f0831; 
+body {
+   background: #0f0831;
 }
 
 /* ------------------------------------------------------------------ */
@@ -31,15 +31,25 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   
+
    text-align: center;
    overflow: hidden;
 }
 
 .cat-astronaut {
-   background:linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(72, 0, 255, 0.3)), url("/images/background-laser-eyes.jpeg");
+   background:linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(72, 0, 255, 0.3)), url("/images/background-laser-eyes.jpeg");
    background-size:cover;
-   background-position: center;   
+   background-position: 33% center;
+}
+
+.text-center {
+   text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+   .cat-astronaut {
+      background-position: center;
+   }
 }
 
 
@@ -67,11 +77,12 @@ header .banner-text h1 {
    margin: 0 auto 0 auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 18px/1.9em 'opensans-bold', sans-serif;
    color: #fff;
    margin: 0 auto;
    width: 70%;
 }
+header .banner-text h2,
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
@@ -87,6 +98,18 @@ header .banner-text hr {
    margin: 18px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
+}
+
+header .banner-text-trust-me {
+   font-size: 2rem;
+   color: #fff;
+   margin: 0;
+}
+
+header .banner-text-moon {
+   font-size: 1.5rem;
+   color: #fff;
+   margin-bottom: 5px;
 }
 
 /* scrolldown link */
@@ -115,6 +138,8 @@ header .catboss-logo {
    max-height: 19vh;
    border-radius:50%;
    margin-top: 40px;
+   -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 9px 10px 3px rgba(0,0,0,0.22);
+box-shadow: 0px 10px 13px -7px #000000, 5px 9px 10px 3px rgba(0,0,0,0.22);
 }
 
 /* primary navigation
@@ -197,16 +222,18 @@ ul#nav li.current a { color: #A92F6C; }
    margin-bottom: 12px;
 }
 
-#about h1 { 
+#about h1 {
    font: 35px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 32px;
-   color: #0f0831;
+   /* color: #0f0831; */
+   color: #534b79;
 }
 #about p {
-   line-height: 25px;
+   line-height: 1.5;
+   font-size: 16px;
    color: #0f0831;
 }
 #about .profile-pic {
@@ -228,6 +255,7 @@ ul#nav li.current a { color: #A92F6C; }
 
 #about .cat-pics {
    text-align: center;
+   margin-bottom: 2rem;
 }
 
 /* ------------------------------------------------------------------ */
@@ -267,16 +295,16 @@ ul#nav li.current a { color: #A92F6C; }
 }
 
 #networks .header-col { padding-top: 9px; }
-#networks-wrapper  { 
-   margin-bottom: 36px; 
-   display: inline-flex; 
+#networks-wrapper  {
+   margin-bottom: 36px;
+   display: inline-flex;
 }
 
 .networks-list{
    align-items: center;
 }
 
-.networks-image{ 
+.networks-image{
    height: 170px;
 }
 
