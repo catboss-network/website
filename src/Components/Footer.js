@@ -9,7 +9,7 @@ class Footer extends Component {
       return (
         <li key={network.name}>
           <a href={network.url}>
-            <img src={network.icon} alt={network.name} />
+            <i className={network.className}></i>
           </a>
         </li>
       );
