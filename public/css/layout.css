@@ -100,9 +100,16 @@ header .banner-text hr {
    border-color: rgba(150, 150, 150, .1);
 }
 
-header .banner-text-description {
+header .banner-text-trust-me {
    font-size: 2rem;
    color: #fff;
+   margin: 0;
+}
+
+header .banner-text-moon {
+   font-size: 1.5rem;
+   color: #fff;
+   margin-bottom: 5px;
 }
 
 /* scrolldown link */
