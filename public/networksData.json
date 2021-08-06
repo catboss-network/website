@@ -18,12 +18,17 @@
       {
         "name":"twitter",
         "url":"https://twitter.com/Catboss_Network",
-        "icon": "/images/social-media-twitter.svg"
+        "className": "fa fa-twitter"
       },
       {
         "name":"github",
         "url":"https://github.com/orgs/catboss-network",
-        "icon": "/images/social-media-github.svg"
+        "className": "fa fa-github"
+      },
+      {
+        "name": "email",
+        "url": "mailto:hello@catboss.network?Subject=Hello%20CatBoss",
+        "className": "fa fa-envelope"
       }
     ]
   },
