@@ -377,10 +377,15 @@ ul#nav li.current a { color: #A92F6C; }
 #networks .header-col { padding-top: 9px; }
 #networks-wrapper  {
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: repeat(1, 1fr);
    grid-gap: 1rem;
-   /* margin-bottom: 36px;
-   display: inline-flex; */
+}
+
+/* desktop  */
+@media only screen and (min-width: 765px) {
+   #networks-wrapper  {
+      grid-template-columns: repeat(3, 1fr);
+   }
 }
 
 .networks-list{
