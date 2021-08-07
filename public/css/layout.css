@@ -38,7 +38,7 @@ header {
 }
 
 .cat-astronaut {
-   background:linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(72, 0, 255, 0.3)), url("/images/background-laser-eyes.svg");
+   background:linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(57, 75, 115, 0.3)), url("/images/background-laser-eyes.svg");
    background-size:cover;
    background-position: 33% center;
 }
@@ -48,8 +48,12 @@ header {
 }
 
 .section-padding {
-   padding-top: 5rem;
-   padding-bottom: 5rem;
+   padding-top: 6rem;
+   padding-bottom: 6rem;
+}
+
+.no-margin-bottom {
+   margin-bottom: 0;
 }
 
 /* desktop  */
@@ -71,17 +75,18 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;
+   /* width: 85%; */
+   /* padding-bottom: 30px; */
    text-align: center;
 }
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   /* font: 90px/1.1em 'opensans-bold', sans-serif; */
    color: #fff;
-   letter-spacing: -2px;
-   margin: 0 auto 0 auto;
+   /* letter-spacing: -2px; */
+
+   /* margin: 0 auto 0 auto; */
 }
 header .banner-text h3 {
    font: 18px/1.9em 'opensans-bold', sans-serif;
@@ -147,6 +152,13 @@ header .catboss-logo, #about .catboss-logo {
    /* margin-top: 40px; */
    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 9px 10px 3px rgba(0,0,0,0.22);
 box-shadow: 0px 10px 13px -7px #000000, 5px 9px 10px 3px rgba(0,0,0,0.22);
+}
+
+/* desktop  */
+@media only screen and (min-width: 765px) {
+   header .banner-text h1 {
+      font: 90px/1.1em 'opensans-bold', sans-serif;
+   }
 }
 
 /* primary navigation
@@ -261,6 +273,19 @@ ul#nav li.current a { color: #A92F6C; }
 #about .cat-pics {
    text-align: center;
    margin-bottom: 2rem;
+}
+
+#about .socials {
+   display: flex;
+}
+
+#about .social a {
+   color: #394b73;
+}
+
+#about .spacer {
+   margin-left: 1rem;
+   margin-right: 2rem;
 }
 
 /* ------------------------------------------------------------------ */
