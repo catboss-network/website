@@ -376,16 +376,19 @@ ul#nav li.current a { color: #A92F6C; }
 
 #networks .header-col { padding-top: 9px; }
 #networks-wrapper  {
-   margin-bottom: 36px;
-   display: inline-flex;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1rem;
+   /* margin-bottom: 36px;
+   display: inline-flex; */
 }
 
 .networks-list{
-   align-items: center;
+   /* align-items: center; */
 }
 
 .networks-image{
-   height: 170px;
+   height: 120px;
 }
 
 .networks-item {
@@ -482,6 +485,7 @@ ul#nav li.current a { color: #A92F6C; }
 .networks-link{
    color: #394b73;
    text-align: center;
+   margin-top: 2rem;
 }
 
 #networks .cat-pic {

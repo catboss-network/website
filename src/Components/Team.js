@@ -26,7 +26,7 @@ class About extends Component {
               alt="Meow"
             /> */}
             </div>
-            <h1 className="title">{"My Pawmates"}</h1>
+            <h1 className="title">{"MY PAWMATES"}</h1>
             <p className="text-center">{team.description}</p>
             <div className="twelve columns main-col cat-profiles">
               {team.members.map((x) => (
