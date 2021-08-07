@@ -19,7 +19,8 @@
 /* ------------------------------------------------------------------ */
 
 body {
-   background: #0f0831;
+   /* background: #394b73; */
+   background: #394b73;
 }
 
 /* ------------------------------------------------------------------ */
@@ -37,7 +38,7 @@ header {
 }
 
 .cat-astronaut {
-   background:linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(72, 0, 255, 0.3)), url("/images/background-laser-eyes.svg");
+   background:linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(57, 75, 115, 0.3)), url("/images/background-laser-eyes.webp");
    background-size:cover;
    background-position: 33% center;
 }
@@ -46,7 +47,17 @@ header {
    text-align: center;
 }
 
-@media only screen and (min-width: 700px) {
+.section-padding {
+   padding-top: 6rem;
+   padding-bottom: 6rem;
+}
+
+.no-margin-bottom {
+   margin-bottom: 0;
+}
+
+/* desktop  */
+@media only screen and (min-width: 765px) {
    .cat-astronaut {
       background-position: center;
    }
@@ -64,17 +75,18 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;
+   /* width: 85%; */
+   /* padding-bottom: 30px; */
    text-align: center;
 }
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   /* font: 90px/1.1em 'opensans-bold', sans-serif; */
    color: #fff;
-   letter-spacing: -2px;
-   margin: 0 auto 0 auto;
+   /* letter-spacing: -2px; */
+
+   /* margin: 0 auto 0 auto; */
 }
 header .banner-text h3 {
    font: 18px/1.9em 'opensans-bold', sans-serif;
@@ -134,12 +146,19 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #A92F6C; }
 
-header .catboss-logo {
+header .catboss-logo, #about .catboss-logo {
    max-height: 19vh;
    border-radius:50%;
-   margin-top: 40px;
+   /* margin-top: 40px; */
    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 9px 10px 3px rgba(0,0,0,0.22);
 box-shadow: 0px 10px 13px -7px #000000, 5px 9px 10px 3px rgba(0,0,0,0.22);
+}
+
+/* desktop  */
+@media only screen and (min-width: 765px) {
+   header .banner-text h1 {
+      font: 90px/1.1em 'opensans-bold', sans-serif;
+   }
 }
 
 /* primary navigation
@@ -163,7 +182,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 9px 10px 3px rgba(0,0,0,0.22);
    left: 0;
    top: 0;
 }
-.opaque { background-color: #0f0831; }
+.opaque { background-color: #394b73; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -208,13 +227,11 @@ ul#nav li.current a { color: #A92F6C; }
 
 #about {
    background-color: #ffffff;
-   padding-top: 45px;
-   padding-bottom: 10px;
-   overflow: hidden;
+   /* overflow: hidden; */
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #0f0831; }
+#about a:hover, #about a:focus { color: #394b73; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -228,13 +245,13 @@ ul#nav li.current a { color: #A92F6C; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 32px;
-   /* color: #0f0831; */
-   color: #534b79;
+   /* color: #394b73; */
+   /* color: #534b79; */
 }
 #about p {
    line-height: 1.5;
    font-size: 16px;
-   color: #0f0831;
+   color: #394b73;
 }
 #about .profile-pic {
    position: relative;
@@ -258,19 +275,82 @@ ul#nav li.current a { color: #A92F6C; }
    margin-bottom: 2rem;
 }
 
+#about .socials {
+   display: flex;
+}
+
+#about .social a {
+   color: #394b73;
+}
+
+#about .spacer {
+   margin-left: 1rem;
+   margin-right: 2rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Team
+/* ------------------------------------------------------------------ */
+#team {
+   background-color: #394b73;
+   /* padding-top: 45px;
+   padding-bottom: 10px; */
+   /* overflow: hidden; */
+   /* padding-top: 4rem;
+   padding-bottom: 4rem; */
+   color: white;
+}
+
+#team .title, #team .name {
+   color: white;
+   text-align: center;
+}
+
+#team .name {
+   margin-top: 1rem;
+}
+
+#team .cat-profiles {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: auto;
+   grid-gap: 2rem;
+}
+
+#team .cat-profile {
+   /* background: white; */
+   border-radius: 5px;
+   padding: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+}
+
+#team .cat-pic {
+   width: 80px;
+   height: auto;
+}
+
+/* desktop  */
+@media only screen and (min-width: 765px) {
+   #team .cat-profiles {
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
 /* ------------------------------------------------------------------ */
 /* d. Networks Section
 /* ------------------------------------------------------------------ */
 
 #networks {
-   /* background-color: #0f0831; */
+   /* background-color: #394b73; */
    background-color: #ffffff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#networks a, #networks a:visited  { color: #0f0831; }
+#networks a, #networks a:visited  { color: #394b73; }
 #networks a:hover, #networks a:focus { color: #313131; }
 
 #networks h1 {
@@ -279,7 +359,7 @@ ul#nav li.current a { color: #A92F6C; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 32px;
-   color: #0f0831;
+   color: #394b73;
 }
 #networks h1 span {
    border-bottom: 3px solid #ebeef3;
@@ -287,7 +367,7 @@ ul#nav li.current a { color: #A92F6C; }
 }
 #networks h6 {
    font: 16px/24px 'opensans-regular', sans-serif;
-   color: #0f0831;
+   color: #394b73;
    text-align: center;
    font-weight: 200;
    margin-bottom: 64px;
@@ -296,16 +376,19 @@ ul#nav li.current a { color: #A92F6C; }
 
 #networks .header-col { padding-top: 9px; }
 #networks-wrapper  {
-   margin-bottom: 36px;
-   display: inline-flex;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1rem;
+   /* margin-bottom: 36px;
+   display: inline-flex; */
 }
 
 .networks-list{
-   align-items: center;
+   /* align-items: center; */
 }
 
 .networks-image{
-   height: 170px;
+   height: 120px;
 }
 
 .networks-item {
@@ -383,7 +466,7 @@ ul#nav li.current a { color: #A92F6C; }
 }
 .networks-item .networks-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
-   color: #0f0831;
+   color: #394b73;
    margin-bottom: 0;
 }
 
@@ -400,8 +483,9 @@ ul#nav li.current a { color: #A92F6C; }
 }
 
 .networks-link{
-   color: #0f0831;
+   color: #394b73;
    text-align: center;
+   margin-top: 2rem;
 }
 
 #networks .cat-pic {
@@ -469,7 +553,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #A92F6C;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
