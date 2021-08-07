@@ -42,7 +42,7 @@ class About extends Component {
               {social.map((x, i) => (
                 <>
                   <p className="social">
-                    <a href={x.url} key={x.url}>
+                    <a href={x.url} key={x.url} target="_blank" rel="noreferrer">
                         {x.name}
                     </a>
                   </p>

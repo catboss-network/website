@@ -22,17 +22,17 @@
       "members": [
         {
           "name": "MANDOKA",
-          "bio": "Full-time cat lady who part-time codes to afford gourmet cat food for her master. She is not secretly plotting to take over the world or anything",
+          "bio": "Full-time cat lady who programs to afford gourmet cat food for her master. She is not secretly plotting to take over the world or anything",
           "img": "/images/cat-blue.png"
         },
         {
           "name": "NAYN",
-          "bio": "Avid cypto-lover who likes to HODL his cat to the moon and through the dip. He knows where the money is.",
+          "bio": "Avid cypto-lover who likes to HODL his cat to the moon and through the dip. He knows where the money is and won't hesitate.",
           "img": "/images/cat-pink.png"
         },
         {
           "name": "RYUASH",
-          "bio": "Little bit shy and super chaotic, Ryuash is a cat raised by dogs.",
+          "bio": "Probably the most chaotic programmer on the team. Little bit shy and most likely planning something, Ryuash is a cat raised by dogs.",
           "img": "/images/cat-grey.png"
         }
       ]
