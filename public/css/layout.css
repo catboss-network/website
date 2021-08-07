@@ -38,7 +38,7 @@ header {
 }
 
 .cat-astronaut {
-   background:linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(57, 75, 115, 0.3)), url("/images/background-laser-eyes.svg");
+   background:linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(57, 75, 115, 0.3)), url("/images/background-laser-eyes.webp");
    background-size:cover;
    background-position: 33% center;
 }
