@@ -8,7 +8,7 @@ class About extends Component {
     const team = this.props.data.team;
 
     return (
-      <section id="team">
+      <section id="team" className="section-padding">
         <Fade duration={1000}>
           <div className="row">
             <div className="cat-pics">
@@ -31,15 +31,13 @@ class About extends Component {
             <div className="twelve columns main-col cat-profiles">
               {team.members.map((x) => (
                 <div key={x.name} className="cat-profile">
-                  <div>
-                    <img
+                  <img
                       className="cat-pic"
                       src={x.img}
                       alt="Meow"
                     />
-                  </div>
-                  <div>{x.name}</div>
-                  <div>{x.bio}</div>
+                  <h3 className="name">{x.name}</h3>
+                  <p className="text-center">{x.bio}</p>
                 </div>
               ))}
               {/* <p className="about-text">{about.bio_stay_pawsome}</p>
