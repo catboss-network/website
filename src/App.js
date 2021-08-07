@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Networks from "./Components/Networks";
+import Team from './Components/Team';
 
 class App extends Component {
   constructor(props) {
@@ -39,6 +40,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.networksData.main} />
         <About data={this.state.networksData.main} />
+        <Team data={this.state.networksData.main} />
         <Networks data={this.state.networksData.networks} />
         <Footer data={this.state.networksData.main} />
       </div>

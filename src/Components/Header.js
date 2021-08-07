@@ -32,6 +32,12 @@ class Header extends Component {
             </li>
 
             <li>
+              <a className="smoothscroll" href="#team">
+                Team
+              </a>
+            </li>
+
+            <li>
               <a className="smoothscroll" href="#networks">
                 Networks
               </a>
@@ -42,18 +48,21 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <img src="/images/catboss.png" className="catboss-logo" alt="catboss-logo"></img>
+              {/* <img src="/images/catboss.png" className="catboss-logo" alt="catboss-logo"></img> */}
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
-            <Fade bottom duration={1500}>
+            {/* <Fade bottom duration={1500}>
               <p className="banner-text-trust-me">{description.description_trust_me}</p>
+            </Fade> */}
+            <Fade bottom duration={1500}>
+              <p className="banner-text-trust-me">{description.description_moon}</p>
             </Fade>
-            <Fade bottom duration={3000}>
+            {/* <Fade bottom duration={3000}>
               <p className="banner-text-moon">{description.description_moon}</p>
-            </Fade>
-            <Fade bottom duration={6000}>
+            </Fade> */}
+            {/* <Fade bottom duration={6000}>
               <h6>{description.description}.</h6>
-            </Fade>
+            </Fade> */}
             <hr />
           </div>
         </div>
