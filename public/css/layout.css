@@ -46,6 +46,7 @@ header {
    text-align: center;
 }
 
+/* desktop  */
 @media only screen and (min-width: 700px) {
    .cat-astronaut {
       background-position: center;
@@ -134,7 +135,7 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #A92F6C; }
 
-header .catboss-logo {
+header .catboss-logo, #about .catboss-logo {
    max-height: 19vh;
    border-radius:50%;
    margin-top: 40px;
