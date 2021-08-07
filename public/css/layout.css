@@ -260,6 +260,30 @@ ul#nav li.current a { color: #A92F6C; }
 }
 
 /* ------------------------------------------------------------------ */
+/* e. Team
+/* ------------------------------------------------------------------ */
+#team {
+   background-color: #3e4957;
+   /* padding-top: 45px;
+   padding-bottom: 10px; */
+   /* overflow: hidden; */
+   padding-top: 4rem;
+   padding-bottom: 4rem;
+}
+
+#team .title {
+   color: white;
+   text-align: center;
+}
+
+#team .cat-profiles {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto;
+   grid-gap: 2rem;
+}
+
+/* ------------------------------------------------------------------ */
 /* d. Networks Section
 /* ------------------------------------------------------------------ */
 

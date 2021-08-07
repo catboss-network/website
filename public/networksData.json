@@ -15,6 +15,26 @@
     "bio_mandoka": "2.     Mandoka is a full-time cat lady who part-time codes to afford gourmet cat food for her master. ",
     "bio_nayn":"3.     NAYN is an avid cypto-lover who likes to HODL his cat to the moon and through the dip.",
     "bio_ps": "PS. Although we believe cats are the ultimate superior animal, we are also friends with doge and shiba inu. ",
+    "team": {
+      "description": "These are my trusty underlings, if you don't trust me, you should at least trust them",
+      "members": [
+        {
+          "name": "ryuash",
+          "bio": "NAYN is an avid cypto-lover who likes to HODL his cat to the moon and through the dip.",
+          "img": "/images/cat-blue.png"
+        },
+        {
+          "name": "ryuash",
+          "bio": "NAYN is an avid cypto-lover who likes to HODL his cat to the moon and through the dip.",
+          "img": "/images/cat-pink.png"
+        },
+        {
+          "name": "ryuash",
+          "bio": "NAYN is an avid cypto-lover who likes to HODL his cat to the moon and through the dip.",
+          "img": "/images/cat-grey.png"
+        }
+      ]
+    },
     "social":[
       {
         "name":"twitter",

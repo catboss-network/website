@@ -5,14 +5,13 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const about = this.props.data;
+    const team = this.props.data.team;
 
     return (
-      <section id="about">
+      <section id="team">
         <Fade duration={1000}>
           <div className="row">
             <div className="cat-pics">
-              <img src="/images/catboss.png" className="catboss-logo" alt="catboss-logo"></img>
             {/* <img
               className="cat-pic"
               src="/images/cat-blue.png"
@@ -27,14 +26,23 @@ class About extends Component {
               alt="Meow"
             /> */}
             </div>
-            <h1>{"About"}</h1>
-            <div className="twelve columns main-col">
-              <p className="about-text text-center">{about.bio_intro}</p>
-              {/* <p className="about-text">{about.bio_mission}</p> */}
-              <p className="about-text text-center">{about.bio_mission_description}</p>
-              <p className="about-text text-center">{about.bio_mission_no_cat_litter}</p>
-              <p className="about-text text-center">{about.bio_support_us}</p>
-              <p className="about-text">{about.bio_stay_pawsome}</p>
+            <h1 className="title">{"My Paws"}</h1>
+            <p className="text-center">{team.description}</p>
+            <div className="twelve columns main-col cat-profiles">
+              {team.members.map((x) => (
+                <div key={x.name} className="cat-profile">
+                  <div>
+                    <img
+                      className="cat-pic"
+                      src={x.img}
+                      alt="Meow"
+                    />
+                  </div>
+                  <div>{x.name}</div>
+                  <div>{x.bio}</div>
+                </div>
+              ))}
+              {/* <p className="about-text">{about.bio_stay_pawsome}</p>
               <p className="about-text">{about.bio_cat_boss}</p>
               <p className="about-text">{about.bio_ryuuash}</p>
               <p className="about-text">{about.bio_mandoka}</p>
@@ -46,7 +54,7 @@ class About extends Component {
                 src="/images/cat.png"
                 alt="Meow"
               />
-              </div>
+              </div> */}
             </div>
           </div>
         </Fade>
