@@ -28,7 +28,7 @@
       },
       {
         "name": "email",
-        "url": "mailto:hello@catboss.network?Subject=Hello%20CatBoss",
+        "url": "mailto:meow@catboss.network?Subject=Hello%20CatBoss",
         "className": "fa fa-envelope"
       }
     ]
