@@ -78,6 +78,11 @@
         "url": "https://e-money.net/validator/emoneyvaloper1wke3ev9ja6rxsngld75r3vppcpet94xx5hu9af"
       },
       {
+        "title": "Regen Network",
+        "image": "/images/regen.svg",
+        "url": "https://regen.aneka.io/validators/regenvaloper1tkcu62sr47qy3gyh2kwy448q649nhqafuzgxwk"
+      },
+      {
         "title": "Desmos",
         "image": "/images/desmos.svg",
         "url": "https://morpheus.desmos.network/validators/desmosvaloper124xa66ghhq5hrgv28slhmszgvcqa0skchrfrar"
