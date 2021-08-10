@@ -51,6 +51,12 @@
         "className": "fa fa-github"
       },
       {
+        "name": "medium",
+        "url": "https://catboss.medium.com",
+        "display": "medium",
+        "icon": "/images/medium.svg"
+      },
+      {
         "name": "email",
         "url": "mailto:meow@catboss.network?Subject=Hello%20CatBoss",
         "className": "fa fa-envelope"

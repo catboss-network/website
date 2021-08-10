@@ -8,9 +8,10 @@ class Footer extends Component {
     const networks = this.props.data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
-          </a>
+          <a href={network.url} target="_blank" rel="noreferrer">
+            {network.name === "medium" ? <img src={network.icon} alt={network.name} className="medium-icon"/> :
+              <i className={network.className}></i>}
+              </a>
         </li>
       );
     });
