@@ -207,6 +207,10 @@
    #networks .main-col { padding-right: 30px; }
    #networks h3, #networks .info { text-align: center; }
       
+   .networks-image {
+    height: 85px;
+   }
+   
    .bars { width: 100%; }
 
    /* footer

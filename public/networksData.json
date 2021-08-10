@@ -1,13 +1,15 @@
 {
   "main": {
     "name":"Cat Boss",
-    "description":"dPoS Cat Validator",
+    "description":"DPoS Cat Validator",
     "description_trust_me": "Trust me, I am a Cat.",
-    "description_moon": "We will take you to the moon.",
-    "bio_intro": "Meow. Who runs the world? Cat Boss!",
+    "description_moon": "We'll take you to the moon",
+    "bio_intro": "Meow, Who runs the world?",
+    "bio_intro_1": "Cat Boss!",
     "bio_mission": "Our mission: to run the purr-fect validation service that all cat lovers can be proud of!",
-    "bio_mission_description": "Since crypto is so focused on dogs, we, a bunch of pussy-loving enthusiasts with experience in the field, want to raise awareness for cats as well as provide you with simple, secure and sustainable staking and node infrastructure.",
-    "bio_mission_no_cat_litter": "We don’t want to give you the regular cat litter that you find on other websites because we are different. We want to inject more cattitude to this space and also make the staking experience more radi-claw and fun (whilst still providing professional services to you).",
+    "bio_mission_description_intro": "We are DPoS validators who want to raise awareness for cats as well as provide you with simple, secure, and sustainable staking and node infrastructure.",
+    "bio_mission_description": "To inject more cattitude to the crypto space and make the staking experience more radi-claw and fun whilst still providing professional services to you.",
+    "bio_mission_no_cat_litter": "A portion of our earnings will go directly to animal shelters.",
     "bio_support_us": "Don’t fur-get to support us on our twitter and telegram!",
     "bio_stay_pawsome":"Stay pawsome!",
     "bio_cat_boss":"- Cat Boss",
@@ -15,15 +17,37 @@
     "bio_mandoka": "2.     Mandoka is a full-time cat lady who part-time codes to afford gourmet cat food for her master. ",
     "bio_nayn":"3.     NAYN is an avid cypto-lover who likes to HODL his cat to the moon and through the dip.",
     "bio_ps": "PS. Although we believe cats are the ultimate superior animal, we are also friends with doge and shiba inu. ",
+    "team": {
+      "description": "These are my trusty underlings, if you don't trust me, you should at least trust them",
+      "members": [
+        {
+          "name": "MANDOKA",
+          "bio": "Full-time cat lady who programs to afford gourmet cat food for her master. She's not secretly plotting to take over the world or anything.",
+          "img": "/images/cat-blue.png"
+        },
+        {
+          "name": "NAYN",
+          "bio": "Avid cypto-lover who likes to HODL his cat to the moon and through the dip. He knows where the treasure is and won't hesitate.",
+          "img": "/images/cat-pink.png"
+        },
+        {
+          "name": "RYUASH",
+          "bio": "Probably the most chaotic programmer on the team. Little bit shy and most likely planning something. Ryuash is a cat raised by dogs.",
+          "img": "/images/cat-grey.png"
+        }
+      ]
+    },
     "social":[
       {
         "name":"twitter",
         "url":"https://twitter.com/Catboss_Network",
+        "display": "twitter",
         "className": "fa fa-twitter"
       },
       {
         "name":"github",
         "url":"https://github.com/orgs/catboss-network",
+        "display": "github",
         "className": "fa fa-github"
       },
       {
@@ -39,12 +63,12 @@
     "projects": [
       {
         "title": "Osmosis",
-        "image": "/images/osmosis.png",
+        "image": "/images/osmosis_with_background.svg",
         "url": "https://osmosis.bigdipper.live/validator/osmovaloper1wke3ev9ja6rxsngld75r3vppcpet94xxwcmk4v"
       },
       {
         "title": "E-Money",
-        "image": "/images/emoney.png",
+        "image": "/images/emoney.svg",
         "url": "https://e-money.net/validator/emoneyvaloper1wke3ev9ja6rxsngld75r3vppcpet94xx5hu9af"
       },
       {
