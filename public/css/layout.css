@@ -513,8 +513,8 @@ footer {
 }
 
 footer a, footer a:visited { color: #fff; }
-footer a:hover, footer a:focus { color: #A92F6C; }
-footer img:hover, footer img:focus { color: #A92F6C; }
+footer a:hover, footer a:focus { color: #fff; }
+footer img:hover, footer img:focus { color: #fff; }
 
 
 /* copyright */
@@ -544,6 +544,10 @@ footer .social-links li {
 }
 
 footer .social-links li:first-child { margin-left: 0; }
+
+footer .medium-icon{
+   transform: translate(5px, 16px);
+}
 
 /* Go To Top Button */
 #go-top {
