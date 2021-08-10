@@ -52,8 +52,7 @@
       },
       {
         "name": "email",
-        "url": "mailto:hello@catboss.network?Subject=Hello%20CatBoss",
-        "display": "hello@catboss.network",
+        "url": "mailto:meow@catboss.network?Subject=Hello%20CatBoss",
         "className": "fa fa-envelope"
       }
     ]
