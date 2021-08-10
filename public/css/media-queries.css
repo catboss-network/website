@@ -233,6 +233,11 @@
       line-height: 54px;
    }
 
+   footer .medium-icon{
+   transform: translate(5px, 10px);
+   height: 28px;
+}
+
 
 }
 
