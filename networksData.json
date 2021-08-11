@@ -51,6 +51,12 @@
         "className": "fa fa-github"
       },
       {
+        "name": "medium",
+        "url": "https://catboss.medium.com",
+        "display": "medium",
+        "icon": "/images/medium.svg"
+      },
+      {
         "name": "email",
         "url": "mailto:meow@catboss.network?Subject=Hello%20CatBoss",
         "className": "fa fa-envelope"
@@ -70,6 +76,11 @@
         "title": "E-Money",
         "image": "/images/emoney.svg",
         "url": "https://e-money.net/validator/emoneyvaloper1wke3ev9ja6rxsngld75r3vppcpet94xx5hu9af"
+      },
+      {
+        "title": "Regen Network",
+        "image": "/images/regen.svg",
+        "url": "https://regen.aneka.io/validators/regenvaloper1tkcu62sr47qy3gyh2kwy448q649nhqafuzgxwk"
       },
       {
         "title": "Desmos",
