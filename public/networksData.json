@@ -86,6 +86,11 @@
         "title": "Desmos",
         "image": "/images/desmos.svg",
         "url": "https://morpheus.desmos.network/validators/desmosvaloper124xa66ghhq5hrgv28slhmszgvcqa0skchrfrar"
+      },
+      {
+        "title": "Juno",
+        "image": "/images/juno.svg",
+        "url": "https://testnet.juno.aneka.io/validators/junovaloper1knxczp7sdq7vs3r6t9eauvxwjcu6c9mskgkmkt"
       }
     ]
   }
