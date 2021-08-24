@@ -38,11 +38,6 @@ class Networks extends Component {
                   {projects}
                 </div>
             </div>
-              {/* <img
-                className="cat-pic"
-                src="/images/cat5.png"
-                alt="Meow"
-              /> */}
             </div>
           </div>
         </Fade>
