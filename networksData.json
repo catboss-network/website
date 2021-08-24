@@ -1,6 +1,7 @@
 {
   "main": {
     "name":"Cat Boss",
+    "logo": "/images/catboss.svg",
     "description":"DPoS Cat Validator",
     "description_trust_me": "Trust me, I am a Cat.",
     "description_moon": "We'll take you to the moon",
@@ -23,17 +24,17 @@
         {
           "name": "MANDOKA",
           "bio": "Full-time cat lady who programs to afford gourmet cat food for her master. She's not secretly plotting to take over the world or anything.",
-          "img": "/images/cat-blue.png"
+          "img": "/images/cat-blue.svg"
         },
         {
           "name": "NAYN",
           "bio": "Avid cypto-lover who likes to HODL his cat to the moon and through the dip. He knows where the treasure is and won't hesitate.",
-          "img": "/images/cat-pink.png"
+          "img": "/images/cat-pink.svg"
         },
         {
           "name": "RYUASH",
           "bio": "Probably the most chaotic programmer on the team. Little bit shy and most likely planning something. Ryuash is a cat raised by dogs.",
-          "img": "/images/cat-grey.png"
+          "img": "/images/cat-grey.svg"
         }
       ]
     },

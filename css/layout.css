@@ -433,7 +433,7 @@ ul#nav li.current a { color: #A92F6C; }
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   background: url(../images/overlay-bg.png) repeat;
+   /* background: url(../images/overlay-bg.png) repeat; */
 }
 .networks-item .item-wrap .link-icon {
    display: block;
