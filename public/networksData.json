@@ -69,9 +69,9 @@
     "description": "Cat Boss provides validation services for dPoS networks listed below. We are actively expanding and will join more networks very soon!",
     "projects": [
       {
-        "title": "Osmosis",
-        "image": "/images/osmosis_with_background.svg",
-        "url": "https://osmosis.bigdipper.live/validator/osmovaloper1wke3ev9ja6rxsngld75r3vppcpet94xxwcmk4v"
+        "title": "Desmos",
+        "image": "/images/desmos.svg",
+        "url": "https://desmos.bigdipper.live/validators/desmosvaloper1rzhewpmmdl72lhnxj6zmxr4v94f522s4hyz467"
       },
       {
         "title": "E-Money",
@@ -79,14 +79,14 @@
         "url": "https://e-money.net/validator/emoneyvaloper1wke3ev9ja6rxsngld75r3vppcpet94xx5hu9af"
       },
       {
+        "title": "Osmosis",
+        "image": "/images/osmosis_with_background.svg",
+        "url": "https://osmosis.bigdipper.live/validator/osmovaloper1wke3ev9ja6rxsngld75r3vppcpet94xxwcmk4v"
+      },
+      {
         "title": "Regen Network",
         "image": "/images/regen.svg",
         "url": "https://regen.aneka.io/validators/regenvaloper1tkcu62sr47qy3gyh2kwy448q649nhqafuzgxwk"
-      },
-      {
-        "title": "Desmos",
-        "image": "/images/desmos.svg",
-        "url": "https://morpheus.desmos.network/validators/desmosvaloper124xa66ghhq5hrgv28slhmszgvcqa0skchrfrar"
       },
       {
         "title": "Juno",
