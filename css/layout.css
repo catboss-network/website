@@ -384,7 +384,7 @@ ul#nav li.current a { color: #A92F6C; }
 /* desktop  */
 @media only screen and (min-width: 765px) {
    #networks-wrapper  {
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
    }
 }
 
@@ -393,7 +393,7 @@ ul#nav li.current a { color: #A92F6C; }
 }
 
 .networks-image{
-   height: 120px;
+   height: 160px;
 }
 
 .networks-item {
@@ -491,6 +491,8 @@ ul#nav li.current a { color: #A92F6C; }
    color: #394b73;
    text-align: center;
    margin-top: 2rem;
+   font-weight: 600;
+   font-size: 16px;
 }
 
 #networks .cat-pic {
