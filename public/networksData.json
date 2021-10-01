@@ -79,6 +79,11 @@
         "url": "https://emoney.bigdipper.live/validators/emoneyvaloper1wke3ev9ja6rxsngld75r3vppcpet94xx5hu9af"
       },
       {
+        "title": "Juno",
+        "image": "/images/juno.svg",
+        "url": "https://ping.pub/juno/staking/junovaloper1wke3ev9ja6rxsngld75r3vppcpet94xx4m43gu"
+      },
+      {
         "title": "Osmosis",
         "image": "/images/osmosis_with_background.svg",
         "url": "https://osmosis.bigdipper.live/validator/osmovaloper1wke3ev9ja6rxsngld75r3vppcpet94xxwcmk4v"
@@ -92,11 +97,6 @@
         "title": "GAME Specific Hub",
         "image": "/images/game.svg",
         "url": "https://nibiru-2000.game-explorer.io/validators/nibiruvaloper1knxczp7sdq7vs3r6t9eauvxwjcu6c9mssumas2"
-      },
-      {
-        "title": "Juno",
-        "image": "/images/juno.svg",
-        "url": "https://testnet.juno.aneka.io/validators/junovaloper1knxczp7sdq7vs3r6t9eauvxwjcu6c9mskgkmkt"
       }
     ]
   }
