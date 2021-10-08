@@ -69,6 +69,11 @@
     "description": "Cat Boss provides validation services for dPoS networks listed below. We are actively expanding and will join more networks very soon!",
     "projects": [
       {
+        "title": "Bitcanna",
+        "image": "/images/bitcanna.svg",
+        "url": "https://cosmos-explorer.bitcanna.io/validators/bcnavaloper1wke3ev9ja6rxsngld75r3vppcpet94xxlepyxl"
+      },
+      {
         "title": "Desmos",
         "image": "/images/desmos.svg",
         "url": "https://desmos.bigdipper.live/validators/desmosvaloper1rzhewpmmdl72lhnxj6zmxr4v94f522s4hyz467"
