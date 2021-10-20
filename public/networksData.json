@@ -107,6 +107,11 @@
         "title": "Regen Network",
         "image": "/images/regen.svg",
         "url": "https://regen.aneka.io/validators/regenvaloper1tkcu62sr47qy3gyh2kwy448q649nhqafuzgxwk"
+      },
+      {
+        "title": "Umee Network",
+        "image": "/images/umee.svg",
+        "url": "https://explorer-umeevengers.nodes.guru/validators/umeevaloper1knxczp7sdq7vs3r6t9eauvxwjcu6c9msd4ellk"
       }
     ]
   }
