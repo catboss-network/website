@@ -84,6 +84,16 @@
         "url": "https://emoney.bigdipper.live/validators/emoneyvaloper1wke3ev9ja6rxsngld75r3vppcpet94xx5hu9af"
       },
       {
+        "title": "Evmos",
+        "image": "/images/evmos.svg",
+        "url": "https://explorer.evmos.org/validators/evmosvaloper1y30fw76mz6p6luwarjtkgnwth3d7333gryga0f"
+      },
+      {
+        "title": "GAME Specific Hub",
+        "image": "/images/game.svg",
+        "url": "https://nibiru-2000.game-explorer.io/validators/nibiruvaloper1knxczp7sdq7vs3r6t9eauvxwjcu6c9mssumas2"
+      },
+      {
         "title": "Juno",
         "image": "/images/juno.svg",
         "url": "https://junoscan.com/validators/junovaloper1wke3ev9ja6rxsngld75r3vppcpet94xx4m43gu"
@@ -102,11 +112,6 @@
         "title": "Umee Network",
         "image": "/images/umee.svg",
         "url": "https://explorer-umeevengers.nodes.guru/validators/umeevaloper1knxczp7sdq7vs3r6t9eauvxwjcu6c9msd4ellk"
-      },
-      {
-        "title": "GAME Specific Hub",
-        "image": "/images/game.svg",
-        "url": "https://nibiru-2000.game-explorer.io/validators/nibiruvaloper1knxczp7sdq7vs3r6t9eauvxwjcu6c9mssumas2"
       }
     ]
   }
