@@ -89,11 +89,6 @@
         "url": "https://explorer.evmos.org/validators/evmosvaloper1y30fw76mz6p6luwarjtkgnwth3d7333gryga0f"
       },
       {
-        "title": "GAME Specific Hub",
-        "image": "/images/game.svg",
-        "url": "https://neuron.game-explorer.io/validators/gamevaloper12f8ekqpv0k0jsshgqdq0thr6thfw3deqaz2zfk"
-      },
-      {
         "title": "Juno",
         "image": "/images/juno.svg",
         "url": "https://junoscan.com/validators/junovaloper1wke3ev9ja6rxsngld75r3vppcpet94xx4m43gu"
