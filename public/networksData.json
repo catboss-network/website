@@ -1,8 +1,8 @@
 {
   "main": {
-    "name":"Cat Boss",
+    "name": "Cat Boss",
     "logo": "/images/catboss.svg",
-    "description":"DPoS Cat Validator",
+    "description": "DPoS Cat Validator",
     "description_trust_me": "Trust me, I am a Cat.",
     "description_moon": "We'll take you to the moon",
     "bio_intro": "Meow, Who runs the world?",
@@ -12,11 +12,11 @@
     "bio_mission_description": "To inject more cattitude to the crypto space and make the staking experience more radi-claw and fun whilst still providing professional services to you.",
     "bio_mission_no_cat_litter": "A portion of our earnings will go directly to animal shelters.",
     "bio_support_us": "Don’t fur-get to support us on our twitter and telegram!",
-    "bio_stay_pawsome":"Stay pawsome!",
-    "bio_cat_boss":"- Cat Boss",
+    "bio_stay_pawsome": "Stay pawsome!",
+    "bio_cat_boss": "- Cat Boss",
     "bio_ryuuash": "1.     Ryuash is a software engineer with a huge fetish for saving cats.",
     "bio_mandoka": "2.     Mandoka is a full-time cat lady who part-time codes to afford gourmet cat food for her master. ",
-    "bio_nayn":"3.     NAYN is an avid cypto-lover who likes to HODL his cat to the moon and through the dip.",
+    "bio_nayn": "3.     NAYN is an avid cypto-lover who likes to HODL his cat to the moon and through the dip.",
     "bio_ps": "PS. Although we believe cats are the ultimate superior animal, we are also friends with doge and shiba inu. ",
     "team": {
       "description": "These are my trusty underlings, if you don't trust me, you should at least trust them",
@@ -38,16 +38,16 @@
         }
       ]
     },
-    "social":[
+    "social": [
       {
-        "name":"twitter",
-        "url":"https://twitter.com/Catboss_Network",
+        "name": "twitter",
+        "url": "https://twitter.com/Catboss_Network",
         "display": "twitter",
         "className": "fa fa-twitter"
       },
       {
-        "name":"github",
-        "url":"https://github.com/orgs/catboss-network",
+        "name": "github",
+        "url": "https://github.com/orgs/catboss-network",
         "display": "github",
         "className": "fa fa-github"
       },
@@ -64,7 +64,7 @@
       }
     ]
   },
-  "networks":{
+  "networks": {
     "title": "Validator Service",
     "description": "Cat Boss provides validation services for dPoS networks listed below. We are actively expanding and will join more networks very soon!",
     "projects": [
@@ -76,7 +76,7 @@
       {
         "title": "Desmos",
         "image": "/images/desmos.svg",
-        "url": "https://desmos.bigdipper.live/validators/desmosvaloper1rzhewpmmdl72lhnxj6zmxr4v94f522s4hyz467"
+        "url": "https://desmos.bigdipper.live/validators/desmosvaloper19du9hugzezkd47g4pttgjvu6ggc3nvnzx3qsv8"
       },
       {
         "title": "E-Money",
