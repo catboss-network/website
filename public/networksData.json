@@ -84,6 +84,11 @@
         "url": "https://emoney.bigdipper.live/validators/emoneyvaloper1wke3ev9ja6rxsngld75r3vppcpet94xx5hu9af"
       },
       {
+        "title": "IXO",
+        "image": "/images/ixo.svg",
+        "url": "https://blockscan.ixo.world/validator/ixovaloper1rtaex3ahk0n403g4p3qgzt6fv694wevvqy79n5"
+      },
+      {
         "title": "Juno",
         "image": "/images/juno.svg",
         "url": "https://www.mintscan.io/juno/validators/junovaloper1wke3ev9ja6rxsngld75r3vppcpet94xx4m43gu"
