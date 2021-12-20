@@ -74,6 +74,11 @@
         "url": "https://cosmos-explorer.bitcanna.io/validators/bcnavaloper1wke3ev9ja6rxsngld75r3vppcpet94xxlepyxl"
       },
       {
+        "title": "Chihuahua",
+        "image": "/images/chihuahua.svg",
+        "url": "https://ping.pub/chihuahua/staking/chihuahuavaloper1wke3ev9ja6rxsngld75r3vppcpet94xxvkdkx8"
+      },
+      {
         "title": "Desmos",
         "image": "/images/desmos.svg",
         "url": "https://desmos.bigdipper.live/validators/desmosvaloper19du9hugzezkd47g4pttgjvu6ggc3nvnzx3qsv8"
