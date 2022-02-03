@@ -98,6 +98,11 @@
         "image": "/images/juno.svg",
         "url": "https://www.mintscan.io/juno/validators/junovaloper1wke3ev9ja6rxsngld75r3vppcpet94xx4m43gu"
       },
+       {
+        "title": "Nomic",
+        "image": "/images/nomic.svg",
+        "url": "https://app.nomic.io"
+      },
       {
         "title": "Osmosis",
         "image": "/images/osmosis_with_background.svg",
