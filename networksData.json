@@ -76,7 +76,7 @@
       {
         "title": "Chihuahua",
         "image": "/images/chihuahua.svg",
-        "url": "https://ping.pub/chihuahua/staking/chihuahuavaloper1wke3ev9ja6rxsngld75r3vppcpet94xxvkdkx8"
+        "url": "https://www.mintscan.io/chihuahua/validators/chihuahuavaloper1wke3ev9ja6rxsngld75r3vppcpet94xxvkdkx8"
       },
       {
         "title": "Desmos",
@@ -111,7 +111,7 @@
       {
         "title": "Regen Network",
         "image": "/images/regen.svg",
-        "url": "https://regen.aneka.io/validators/regenvaloper1tkcu62sr47qy3gyh2kwy448q649nhqafuzgxwk"
+        "url": "https://regen.bigdipper.live/validators/regenvaloper1tkcu62sr47qy3gyh2kwy448q649nhqafuzgxwk"
       }
     ]
   }
