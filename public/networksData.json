@@ -89,6 +89,11 @@
         "url": "https://emoney.bigdipper.live/validators/emoneyvaloper1wke3ev9ja6rxsngld75r3vppcpet94xx5hu9af"
       },
       {
+        "title": "Evmos",
+        "image": "/images/evmos.svg",
+        "url": "https://evmos.bigdipper.live/validators/evmosvaloper1qlmr9c4n55rn9753zxwy3wyumdvhuasqpt8dju"
+      },
+      {
         "title": "IXO",
         "image": "/images/ixo.svg",
         "url": "https://blockscan.ixo.world/validator/ixovaloper1rtaex3ahk0n403g4p3qgzt6fv694wevvqy79n5"
