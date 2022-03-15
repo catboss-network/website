@@ -74,6 +74,11 @@
         "url": "https://cosmos-explorer.bitcanna.io/validators/bcnavaloper1wke3ev9ja6rxsngld75r3vppcpet94xxlepyxl"
       },
       {
+        "title": "Cerberus",
+        "image": "/images/cerberus.svg",
+        "url": "https://ping.pub/cerberus/staking/cerberusvaloper1xwdc6lvp30s0uesaufxhhxd9p3prhqss7fjdyj"
+      },
+      {
         "title": "Chihuahua",
         "image": "/images/chihuahua.svg",
         "url": "https://www.mintscan.io/chihuahua/validators/chihuahuavaloper1wke3ev9ja6rxsngld75r3vppcpet94xxvkdkx8"
