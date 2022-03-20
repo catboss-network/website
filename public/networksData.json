@@ -114,11 +114,6 @@
         "url": "https://app.nomic.io"
       },
       {
-        "title": "Osmosis",
-        "image": "/images/osmosis_with_background.svg",
-        "url": "https://www.mintscan.io/osmosis/validators/osmovaloper1wke3ev9ja6rxsngld75r3vppcpet94xxwcmk4v"
-      },
-      {
         "title": "Regen Network",
         "image": "/images/regen.svg",
         "url": "https://regen.bigdipper.live/validators/regenvaloper1tkcu62sr47qy3gyh2kwy448q649nhqafuzgxwk"
